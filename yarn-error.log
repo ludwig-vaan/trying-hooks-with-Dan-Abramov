@@ -1,0 +1,53 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\vanto\bin;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\PuTTY;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH;C:\Gradle\gradle-4.8.1\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\vanto\AppData\Local\Android\Sdk\platform-tools;C:\Users\vanto\AppData\Local\Android\Sdk\tools;C:\Program Files (x86)\Yarn\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\vanto\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vanto\AppData\Local\Yarn\bin;C:\Users\vanto\AppData\Roaming\npm;C:\tools\neovim\Neovim\bin;C:\Users\vanto\AppData\Roaming\Dashlane\6.1907.0.17833\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\vanto\AppData\Roaming\Dashlane\6.1907.0.17833\ucrt;C:\Users\vanto\AppData\Roaming\Dashlane\6.1907.0.17833\bin\Qt;C:\Users\vanto\AppData\Roaming\Dashlane\6.1907.0.17833\bin\Ssl;C:\Users\vanto\AppData\Local\Microsoft\WindowsApps
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  8.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.25.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1191:14)
+
+npm manifest: 
+  {
+    "name": "trying-react-hooks",
+    "version": "1.0.0",
+    "description": "with Dan Abramov",
+    "keywords": [],
+    "main": "src/index.js",
+    "dependencies": {
+      "react": "16.8.3",
+      "react-dom": "16.8.3",
+      "react-scripts": "2.1.8"
+    },
+    "devDependencies": {
+      "typescript": "3.3.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
